@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "monday-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mondayWebPart/MondayWebPartWebPart.js",
+          "manifest": "./src/webparts/mondayWebPart/MondayWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MondayWebPartWebPartStrings": "lib/webparts/mondayWebPart/loc/{locale}.js"
+  }
+}
