@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "d50947aa-6032-4b26-9ac7-fdd98ad89061",
+  "alias": "MondayWebPartWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "MondayWebPart" },
+    "description": { "default": "description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "MondayWebPart",
+      "test": "Multi-line text field",
+      "test1": true,
+      "test2": "2",
+      "test3": true
+    }
+  }]
+}
